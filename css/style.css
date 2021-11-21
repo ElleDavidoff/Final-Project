@@ -162,7 +162,13 @@ header:hover{
 .section-2{
     background-color: #21212E;
     overflow: hidden;
-    padding-bottom: 50px;
+    padding: 40px 0 ;
+}
+
+.section-2-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 
@@ -170,14 +176,17 @@ header:hover{
     background-image: url(../images/Rectangle\ 2219.jpg);
     display: flex;
     flex-direction: column;
-    width: 600px;
+    width: 550px;
     height: 700px;
     justify-content: end;
-
+    border-radius: 8px;
+    box-shadow: 0px 1px 30px 10px rgba(23,23,33,0.84);
+    -webkit-box-shadow: 0px 1px 30px 10px rgba(23,23,33,0.84);
+    -moz-box-shadow: 0px 1px 30px 10px rgba(23,23,33,0.84);
 }
 
 .award-events{
-    width: 600px;
+    width: 550px;
     height: 200px;
     display: flex;
     padding: 10px;
@@ -198,12 +207,9 @@ header:hover{
 }
 
 .award-events h5::before{
-    font-family: "Font Awesome 5 Free";
-    font-weight: 900;
-    font-size: 25px;
-    content: "\f133";
-    color:#BD11FA;
+    content: url(../images/Icon\ feather-calendar.svg);
     margin-right: 10px;
+    vertical-align: middle;
 }
 
 .award-events h6{
@@ -213,6 +219,7 @@ header:hover{
 .award-events h6::before{
     content: url(../images/Icon\ material-location-on.svg);
     margin-right: 10px;
+    vertical-align: middle;
     
 }
 
@@ -226,4 +233,43 @@ header:hover{
     align-items: center;
 }
 
+.event{
+    width: 550px;
+    height: 65px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #20202C;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    box-shadow: 0px 1px 30px 10px rgba(23,23,33,0.84);
+    -webkit-box-shadow: 0px 1px 30px 10px rgba(23,23,33,0.84);
+    -moz-box-shadow: 0px 1px 30px 10px rgba(23,23,33,0.84);}
+
+
+
+    .book-event-button{
+        width: 100px;
+        height: 65px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: white;
+        background-color: #BD11FA;
+        border-radius: 8px;
+    }
+
+.weekday{
+    font-size: 12px;
+    margin-left: 40px;
+}
+
+.event>h4::before{
+    content: "28";
+    font-size: 40px;
+    color: #BD11FA;
+    vertical-align: middle;
+    margin-right: 5px;
+    margin-left: 10px;
+}
 /*Section-2-end*/
