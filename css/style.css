@@ -176,7 +176,7 @@ header:hover{
     background-image: url(../images/Rectangle\ 2219.jpg);
     display: flex;
     flex-direction: column;
-    width: 550px;
+    width: 500px;
     height: 700px;
     justify-content: end;
     border-radius: 8px;
@@ -186,7 +186,7 @@ header:hover{
 }
 
 .award-events{
-    width: 550px;
+    width: 500px;
     height: 200px;
     display: flex;
     padding: 10px;
@@ -213,7 +213,7 @@ header:hover{
 }
 
 .award-events h6{
-    margin-left: 450px;
+    margin-left: 352px;
 }
 
 .award-events h6::before{
@@ -233,43 +233,87 @@ header:hover{
     align-items: center;
 }
 
+.title-events{
+    width: 180px;
+    height: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(70,194, 225, 0.1);
+    color:#46C2FF ;
+
+}
+
+.section-2-events-div{
+    display: flex;
+    flex-flow: column;
+    justify-content: space-around;
+    align-items: flex-start;
+    height: 600px;
+}
+
 .event{
-    width: 550px;
-    height: 65px;
+    width: 600px;
+    height: 60px;
     display: flex;
     justify-content: space-between;
     align-items: center;
     background-color: #20202C;
-    border-radius: 8px;
-    margin-bottom: 20px;
+    border-radius: 5px;
     box-shadow: 0px 1px 30px 10px rgba(23,23,33,0.84);
     -webkit-box-shadow: 0px 1px 30px 10px rgba(23,23,33,0.84);
     -moz-box-shadow: 0px 1px 30px 10px rgba(23,23,33,0.84);}
 
 
 
-    .book-event-button{
-        width: 100px;
-        height: 65px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        color: white;
-        background-color: #BD11FA;
-        border-radius: 8px;
-    }
-
-.weekday{
-    font-size: 12px;
-    margin-left: 40px;
+.event>button{
+    width: 110px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background-color: #BD11FA;
+    border-radius: 8px;
 }
 
-.event>h4::before{
+
+.event-date{
+    display: flex;
+    flex-flow: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    color: #46C2FF;
+    margin-left: -25px;
+}
+
+.event-date>h6{
+    font-size: 12px;
+}
+
+.event>h1{
+    font-size: 45px;
+    color: #BD11FA;
+    margin-left: 20px;
+}
+
+.event>h3{
+    color: white;
+}
+
+.event>h5{
+    font-size: 12px;
+    color: #46C2FF;
+}
+
+
+/*.event-date::before{
     content: "28";
     font-size: 40px;
     color: #BD11FA;
     vertical-align: middle;
     margin-right: 5px;
     margin-left: 10px;
-}
+}*/
+
 /*Section-2-end*/
