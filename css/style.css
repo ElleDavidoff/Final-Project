@@ -217,9 +217,18 @@ header:hover{
 }
 
 .award-events h6::before{
-    content: url(../images/Icon\ material-location-on.svg);
+    content: "\f3c5";
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    background: #BD11FA;
+    background: -webkit-linear-gradient(to right, #BD11FA 0%, #46C2FF 100%);
+    background: -moz-linear-gradient(to right, #BD11FA 0%, #46C2FF 100%);
+    background: linear-gradient(to right, #BD11FA 0%, #46C2FF 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;    
     margin-right: 10px;
     vertical-align: middle;
+    font-size: 25px;
     
 }
 
@@ -326,10 +335,11 @@ header:hover{
 }
 .slider .slider_item {
     width: 300px;
-    height: 500px;
+    height: 350px;
     margin:30px;
+    object-fit: cover;
 }
-.slider .slider_item img {
+.slider {
     width: 100%;
     height: 100%;
     display: block;
@@ -347,4 +357,68 @@ header:hover{
     color: #46C2FF;
 }
 
+.slider_item{
+    width: 310px;
+    background-color: #20202C;
+    border-radius: 5px;
+    box-shadow: 0px 1px 30px 10px rgba(23,23,33,0.84);
+    -webkit-box-shadow: 0px 1px 30px 10px rgba(23,23,33,0.84);
+    -moz-box-shadow: 0px 1px 30px 10px rgba(23,23,33,0.84);
+}
+
+
+.slider-title{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 50px;
+    color: #46C2FF;
+    padding: 15px;
+
+}
+
+.slider-title>h4::before{
+    content: "\f3c5";
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    background: #BD11FA;
+    background: -webkit-linear-gradient(to right, #BD11FA 0%, #46C2FF 100%);
+    background: -moz-linear-gradient(to right, #BD11FA 0%, #46C2FF 100%);
+    background: linear-gradient(to right, #BD11FA 0%, #46C2FF 100%);
+     -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;    
+    margin-right: 10px;
+    vertical-align: middle;
+    font-size: 25px;
+}
+
+
+.slider_item>img{
+    width: 100%;
+    height: 130px;
+    object-fit: cover;
+}
+
+.slider-main{
+    width: 100%;
+    display: flex;
+    flex-flow: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    color: white;
+    padding: 15px;
+}
+
+.slider-main>h2{
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.line{
+    width: 190px;
+    height: 1px;
+    background-color: #BD11FA;
+    margin-bottom: 15px;
+}
 /*Section-3-end*/
