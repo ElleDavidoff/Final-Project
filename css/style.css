@@ -141,8 +141,8 @@ header:hover{
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 550px;
-    height: 550px;
+    width: 450px;
+    height: 450px;
     border-radius: 275px;
     background-image: linear-gradient(to right,#BD11FA ,#46C2FF);
     box-shadow: -2px -2px 38px 7px rgba(189,17,250,0.33);
@@ -150,9 +150,11 @@ header:hover{
     -moz-box-shadow: -2px -2px 38px 7px rgba(189,17,250,0.33);
 }
 
+
+
 .section-1-image-div>img{
-    width: 500px;
-    height: 500px;
+    width: 400px;
+    height: 400px;
 
 }
 
@@ -422,3 +424,109 @@ header:hover{
     margin-bottom: 15px;
 }
 /*Section-3-end*/
+
+/*Section-4-start*/
+.subscribe-wrapper{
+    max-width: 100%;
+    height: 300px;
+    background-image: url(../images/subscribe-wrapper.jpg);
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-size: cover; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.subscribe{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px;
+    width: 1000px;
+    height: 180px;
+    background-color: #262635;
+}
+
+.subscribe-title{
+    width: 500px;
+    height: 70px;
+    color: white;
+    display: flex;
+    flex-flow: column;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.subscribe-title>h2{
+    font-size: 30px;
+}
+
+form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.email-form{
+    width: 400px;
+    height: 50px;
+    padding: 10px;
+    background-color: white;
+    border-radius: 5px 0px 0px 5px;
+    
+}
+
+.subscribe-button{
+    width: 100px;
+    height: 50px;
+    top: 0%;
+    left: 0%;
+    color: white;
+    background-image: linear-gradient(to right,#BD11FA ,#46C2FF);
+    border-radius: 0px 5px 5px 0px;
+
+
+}
+/*Section-4-end*/
+
+/*Section-5-start*/
+
+.gallery-wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.gallery-container{
+    padding: 30px;
+}
+
+.gallery-container>div{
+    margin:30px
+}
+.gallery-title{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 60px 0 60px 0;
+}
+
+.gallery-title>h2{
+    font-size: 35px;
+    color:#46C2FF;
+}
+
+.gallery-title>h4{
+    color: white;
+    margin-right: 20px;
+}
+.gallery-wrapper>img{
+    height: 390px;
+}
+
+
+.gallery-wrapper>img:hover{
+    transform:scale(1.5);
+}
+
+/*Section-5-end*/
