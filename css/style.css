@@ -674,6 +674,52 @@ form{
 footer{
     width: 100%;
     background-color: #21212E;
-    padding: 30px;
+    padding: 60px;
+}
+
+.footer-div{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+
+.social-media>h3{
+    font-size: 20px;
+    color: #46C2FF;
+    margin-bottom: 20px;
+}
+
+.social-icons{
+    width:150px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.social-icons img{
+    width: 30px;
+}
+
+.quick-links>h4, .footer-contact>h2{
+    font-size: 20px;
+    color: #46C2FF;
+    margin-bottom: 20px;
+}
+
+.quick-links a , .quick-links li {
+    margin-top: 15px;
+    color: white;
+}
+
+
+
+.footer-contact li{
+    color: #989898;
+    margin-top:15px;
+}
+
+.footer-contact a{
+    color: whitesmoke;
 }
 /*footer-end*/
