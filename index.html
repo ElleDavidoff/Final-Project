@@ -11,13 +11,12 @@
         <meta property="og:title"       content="" />
         <meta property="og:description" content="" />
         <meta property="og:image"       content=""/>
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="css/reset.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">        <link rel="stylesheet" href="css/reset.css">
         <link rel="stylesheet" href="css/style.css">
         <link rel="stylesheet" href="css/slick.css">
         <link href="https://kenwheeler.github.io/slick/slick/slick-theme.css" rel="stylesheet"/>
         <link rel="stylesheet" href="css/responsive.css">
-        <title></title>
+        <title>Cloobin</title>
         <link rel="icon" type="text/css" href="" type="image/gif" sizes="16x16">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
         <script src="https://kit.fontawesome.com/5c03e5595f.js" crossorigin="anonymous"></script>
@@ -27,34 +26,43 @@
         <script src="js/slick.min.js"></script>
         <!-- Main js with code -->
         <script src="js/script.js"></script>
-
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Lusitana&family=Poppins:wght@200;400&display=swap" rel="stylesheet">
     </head>
     <body>
         <header>
             <div class="container header-container">   
-               <a href="#"> <img src="images/logo.svg" alt="logo"></a>
-               <ul>
-                   <li><a href="#">home</a></li>
-                   <li><a href="#">events</a></li>
-                   <li><a href="#">about us</a></li>
-                   <li><a href="#">contact</a></li>
-               </ul>
-               <a class="sign-in-button" href="#">Sign In</a> 
-               <a class="sign-up-button" href="#">Sign Up</a>
+               <a href="#"> <img class="logo" src="images/logo.svg" alt="logo"></a>
+                <div class="navigation">    
+                    <ul id="menu" class="menu-ul">
+                        <li><a class="nav-a" href="#">home</a></li>
+                        <li><a class="nav-a" href="#">events</a></li>
+                        <li><a class="nav-a" href="#">about us</a></li>
+                        <li><a class="nav-a" href="#">contact</a></li>
+                    </ul>
+                    <div id="signbutton" class="sign-in-up">   
+                        <a class="sign-in-button" href="#">Sign In</a> 
+                        <a class="sign-up-button" href="#">Sign Up</a>
+                    </div>
+                </div>    
+               <div id="burger-menu" class="burger-icon">
+                <i class="fas fa-bars"></i>
+               </div>
             </div>
         </header>
         <section>
             <div class="container section-1-container">
-                <img class="decor" src="images/Group 2500.svg" alt="decor">
                 <div class="section-1-text-div">
                     <h3>IT’S NOT JUST LOVE FOR MUSIC</h3>
                     <h1>Feel The Rhythm</h1>
                     <a class="see-all-button" href="#">See All Events</a>
                 </div>
-                <div class="section-1-image-div animate__animated animate__heartBeat animate__infinite	">
+                <div class="section-1-image-div">
                     <img src="images/Ellipse 1141.png" alt="DJ">
                 </div>
-            </div>                                                                       
+            </div>
+            <img class="decor" src="images/Group 2500.svg" alt="decor">                                                                      
         </section>
         <section>
             <div class="container section-2-container">
@@ -76,65 +84,61 @@
                     </div>
                     <div class="event">
                         <h1>28</h1>
-                        <div class="event-date">
-                            <h4 >September</h4>
-                            <h6>Friday</h6>
+                        <div class="eventinfo">
+                            <div class="event-date">
+                                <h4 >September</h4>
+                                <h6>Friday</h6>
+                            </div>    
+                            <h3>DJ Supernova</h3>
+                            <h5>9pm-4am</h5>
                         </div>    
-                        <h3>The legendary DJ Supernova</h3>
-                        <h5>9pm-4am</h5>
                         <button type="button" >Book Event</button>
                     </div>
                     <div class="event">
-                        <h1>28</h1>
-                        <div class="event-date">
-                            <h4 >September</h4>
-                            <h6>Friday</h6>
+                        <h1>30</h1>
+                        <div class="eventinfo">
+                            <div class="event-date">
+                                <h4 >September</h4>
+                                <h6>Sunday</h6>
+                            </div>    
+                            <h3>Marshmello</h3>
+                            <h5>10pm-4am</h5>
                         </div>    
-                        <h3>The legendary DJ Supernova</h3>
-                        <h5>9pm-4am</h5>
                         <button type="button" >Book Event</button>
-                    </div>
-                    <div class="event">
-                        <h1>28</h1>
-                        <div class="event-date">
-                            <h4 >September</h4>
-                            <h6>Friday</h6>
+                    </div>                    <div class="event">
+                        <h1>4</h1>
+                        <div class="eventinfo">
+                            <div class="event-date">
+                                <h4>October</h4>
+                                <h6>Friday</h6>
+                            </div>    
+                            <h3>DJ Black</h3>
+                            <h5>9pm-5am</h5>
                         </div>    
-                        <h3>The legendary DJ Supernova</h3>
-                        <h5>9pm-4am</h5>
                         <button type="button" >Book Event</button>
-                    </div>
-                    <div class="event">
-                        <h1>28</h1>
-                        <div class="event-date">
-                            <h4 >September</h4>
-                            <h6>Friday</h6>
+                    </div>                    <div class="event">
+                        <h1>15</h1>
+                        <div class="eventinfo">
+                            <div class="event-date">
+                                <h4>October</h4>
+                                <h6>Wednesday</h6>
+                            </div>    
+                            <h3>Steve Angello</h3>
+                            <h5>11pm-3am</h5>
                         </div>    
-                        <h3>The legendary DJ Supernova</h3>
-                        <h5>9pm-4am</h5>
                         <button type="button" >Book Event</button>
-                    </div>
-                    <div class="event">
-                        <h1>28</h1>
-                        <div class="event-date">
-                            <h4 >September</h4>
-                            <h6>Friday</h6>
+                    </div>                    <div class="event">
+                        <h1>27</h1>
+                        <div class="eventinfo">
+                            <div class="event-date">
+                                <h4 >October</h4>
+                                <h6>Saturday</h6>
+                            </div>    
+                            <h3>Blake Shelton</h3>
+                            <h5>8pm-4am</h5>
                         </div>    
-                        <h3>The legendary DJ Supernova</h3>
-                        <h5>9pm-4am</h5>
                         <button type="button" >Book Event</button>
-                    </div>
-                    <div class="event">
-                        <h1>28</h1>
-                        <div class="event-date">
-                            <h4 >September</h4>
-                            <h6>Friday</h6>
-                        </div>    
-                        <h3>The legendary DJ Supernova</h3>
-                        <h5>9pm-4am</h5>
-                        <button type="button" >Book Event</button>
-                    </div>
-                </div>
+                    </div>                </div>
             </div>
         </section>
         <section class="slick">
@@ -219,8 +223,8 @@
             </div>
         </section>
         <section class="subscribe-section">
-            <div class="subscribe-wrapper container">
-                <div class="subscribe">
+            <div class="subscribe-wrapper ">
+                <div class="subscribe container">
                     <div class="subscribe-title">
                         <h2>Subscribe</h2>
                         <h4> To receive info on our latest news and episodes</h4>
@@ -237,15 +241,16 @@
         <section class="gradient-background">
             <div class="about-section-div container">
                 <div class="about-text-div">
-                    <h2>ABOUT CLOOBIN</h2>
-                    <div class="horizontal-line"></div>
+                    <div class="about-title">
+                        <h2>ABOUT CLOOBIN</h2>
+                        <div class="horizontal-line"></div>
+                    </div>
                     <p>
                     You begin with a text, you sculpt information, you chisel away what's not needed, you come to the point, make things clear, add value, you're a content person, you like words. Design is no afterthought, far from it, but it comes in a deserved second. Anyway, you still use Lorem Ipsum and rightly so, as it will always have a place in the web workers toolbox, as things happen, not always the way you like it, not always in the preferred order. Even if your less into design and more into content strategy you may find some redeeming value with, wait for it, dummy copy, no less.
                     </p>
-                    <img src="images/logo2.png" alt="logo" width="180px">
-                </div>
-                <div class="about-img-div">
-                    <img src="images/Group 2504.png" alt="discolight" width="350px">
+                    <p>
+                    Design is no afterthought, far from it, but it comes in a deserved second. Anyway, you still use Lorem Ipsum and rightly so, as it will always have a place in the web workers toolbox, as things happen, not always the way you like it, not always in the preferred order. Even if your less into design and more into content strategy you may find some redeeming value with, wait for it, dummy copy, no less.
+                    </p>
                     <div class="download-app">
                         <a href="https://www.apple.com/app-store/">
                             <div class="download">
@@ -266,6 +271,9 @@
                             </div>
                         </a>    
                     </div>
+                </div>
+                <div class="about-img-div">
+                    <img src="images/Group 2504.png" alt="discolight" width="80%">
                 </div>
             </div>
         </section>
@@ -294,28 +302,30 @@
         </section>
         <section class="gradient-background"> 
             <div class="contacts container">
-                <div class="contacts-text-div">
                     <h2>CONTACTS</h2>
                     <div class="horizontal-line"></div>
-                    <ul>
-                        <li>
-                            <span>Telephone:</span>
-                            <a href="tel:+995555021978">+995555021978</a>
-                        </li>
-                        <li>
-                            <span>Email:</span>
-                            <a href="mailto:cloobin@gmail.com">cloobin@gmail.com</a>
-                        </li>
-                        <li>
-                            <span>Adress:</span>
-                            <a href="https://goo.gl/maps/GDXm6dBrCyu3pcu67">NY city, Manhattan</a>
-                        </li>
-                    </ul>
-                </div>
+                    <div class="cont">
+                        <div class="contacts-text-div">
+                            <ul>
+                                <li>
+                                    <span>Telephone:</span>
+                                    <a href="tel:+995555021978">+995555021978</a>
+                                </li>
+                                <li>
+                                    <span>Email:</span>
+                                    <a href="mailto:cloobin@gmail.com">cloobin@gmail.com</a>
+                                </li>
+                                <li>
+                                    <span>Adress:</span>
+                                    <a href="https://goo.gl/maps/GDXm6dBrCyu3pcu67">NY city, Manhattan</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="map">
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d128733.52994833802!2d-74.04733999457206!3d40.75094967523863!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c24fa5d33f083b%3A0xc80b8f06e177fe62!2sNew%20York%2C%20NY%2C%20USA!5e0!3m2!1sen!2slt!4v1638874128114!5m2!1sen!2slt" width="700px" height="195" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                        </div>
+                    </div>    
                 <img src="images/Group 2438.png" alt="abstract-decor">
-                <div class="map">
-                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d128733.52994833802!2d-74.04733999457206!3d40.75094967523863!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c24fa5d33f083b%3A0xc80b8f06e177fe62!2sNew%20York%2C%20NY%2C%20USA!5e0!3m2!1sen!2slt!4v1638874128114!5m2!1sen!2slt" width="500" height="250" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
-                </div>
             </div>
         </section>
         <footer>
