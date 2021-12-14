@@ -215,6 +215,7 @@ header {
     display: flex;
     flex-direction: column;
     width: 500px;
+    max-width: 100%;
     height: 700px;
     justify-content: end;
     border-radius: 8px;
@@ -225,6 +226,7 @@ header {
 
 .award-events{
     width: 500px;
+    max-width: 100%;
     height: 200px;
     display: flex;
     padding: 10px;
@@ -238,6 +240,7 @@ header {
     color: white;
     font-size: 48px;
     font-weight: bold;
+    font-family: "lusitana";
 }
 
 .award-events h5,h6{
@@ -250,9 +253,7 @@ header {
     vertical-align: middle;
 }
 
-.award-events h6{
-    margin-left: 352px;
-}
+
 
 .award-events h6::before{
     content: "\f3c5";
@@ -272,6 +273,7 @@ header {
 
 .award-events p{
     color: white;
+    font-family: "poppins" sans-serif;
 }
 
 .award-events-title{
@@ -288,7 +290,7 @@ header {
     align-items: center;
     background-color: rgba(70,194, 225, 0.1);
     color:#46C2FF ;
-    font-family: 'poppins', sans-serif;
+    font-family: "poppins", sans-serif;
 
 }
 
@@ -298,10 +300,12 @@ header {
     justify-content: space-around;
     align-items: flex-start;
     height: 600px;
+    max-width: 100%;
 }
 
 .event{
     width: 600px;
+    max-width: 100%;
     height: 60px;
     display: flex;
     justify-content: space-between;
@@ -314,6 +318,7 @@ header {
 
 .eventinfo{
     width: 390px;
+    padding: 5px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -338,7 +343,6 @@ header {
     justify-content: space-between;
     align-items: flex-start;
     color: #46C2FF;
-    margin-left: -10px;
 }
 
 .event-date>h6{
@@ -360,7 +364,7 @@ header {
 .event h5{
     font-size: 12px;
     color: #46C2FF;
-     font-family: 'poppins', sans-serif;
+    font-family: 'poppins', sans-serif;
 }
 
 
@@ -452,8 +456,13 @@ header {
     font-size: 20px;
     font-weight: bold;
     margin-bottom: 15px;
+    font-family: "lusitana";
 }
 
+.slider-main>p{
+    font-family: "poppins",sans-serif;
+    font-size: 15px;
+}
 .line{
     width: 190px;
     height: 1px;
@@ -483,22 +492,23 @@ header {
     align-items: flex-end;
     padding: 30px;
     max-width: 1000px;
-    height: 150px;
+    height: 170px;
     background-color: #262635;
 }
 
 .subscribe-title{
-    width: 400px;
     height: 70px;
     color: white;
     display: flex;
     flex-flow: column;
     justify-content: space-between;
     align-items: flex-start;
+    font-family: "poppins",sans-serif;
 }
 
 .subscribe-title>h2{
     font-size: 30px;
+    margin-bottom: 10px;
 }
 
 form{
@@ -523,6 +533,7 @@ form{
     color: white;
     background-image: linear-gradient(to right,#BD11FA ,#46C2FF);
     border-radius: 0px 5px 5px 0px;
+    font-family: "poppins",sans-serif;
 
 
 }
@@ -540,6 +551,7 @@ form{
 
 .about-text-div{
     width: 650px;
+    max-width: 100%;
     display: flex;
     flex-flow: column;
     justify-content: space-between;
@@ -558,10 +570,13 @@ form{
     font-size: 30px;
     font-weight: bold;
     color: #283C5C;
+    font-family: "lusitana";
 }
 
 .about-text-div>p{
     margin: 30px 0;
+    font-family: "poppins",sans-serif;
+    font-size: 14px;
 }
 .horizontal-line{
     width: 500px;
@@ -635,7 +650,7 @@ form{
 }
 
 .gallery-container>div{
-    margin:20px 0 20px;
+    margin:20px 0 ;
 }
 
 
@@ -649,18 +664,20 @@ form{
 .gallery-title>h2{
     font-size: 35px;
     color:#46C2FF;
+    font-family: "lusitana";
 }
 
 .gallery-title>h4{
     color: white;
-    margin-right: 20px;
+    margin-left: 20px;
+    font-family: "poppins",sans-serif;
+    font-size: 13px;
 }
-.gallery-wrapper>img{
-    height: 390px;
+.gallery-wrapper img{
+    height: 340px;
+    max-width: 100%;
 }
-
-
-.gallery-wrapper>img:hover{
+.gallery-wrapper img:hover{
     transform:scale(1.5);
 }
 
@@ -692,11 +709,14 @@ form{
     font-size: 30px;
     font-weight: bold;
     color: #283C5C;
+    font-family: "lusitana";
+
 }
 
 
 .contacts-text-div li{
-    font-size: 20px;
+    font-size: 17px;
+    font-family: "poppins",sans-serif;
     color:black;
     margin: 20px 0;
 }
@@ -722,6 +742,8 @@ form{
     justify-content: center;
     align-items: center;
 }
+
+
 /*Section-7-end*/
 
 /*footer-start*/
@@ -729,12 +751,15 @@ footer{
     width: 100%;
     background-color: #21212E;
     padding: 60px;
+    font-family: "poppins",sans-serif;
+
 }
 
 .footer-div{
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
+    flex-wrap: wrap;
 }
 
 
