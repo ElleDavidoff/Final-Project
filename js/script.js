@@ -1,15 +1,10 @@
 $(function(){
     $('.multiple-items').slick({
      infinite: true,
-     // რამდენი სურათი გამოჩნდეს
      slidesToShow: 3,
-     // სლაიდის დროს რამდენი ელემნტით გადავიდეს 
      slidesToScroll: 1,
-     // რომ გამოჩნდეს ღილაკები
      arrows: true,
-     // რომ გამოჩნდეს ბურთულები
      dots:true,
-     // responsiv-ის კოდი
      responsive: [
          {
            breakpoint: 768,
