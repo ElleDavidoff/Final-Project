@@ -38,10 +38,8 @@
   }
 
   .about-text-div{
-    align-items: center;
-  }
-
-  .about-title{
+    display: flex;
+    flex-flow: column;
     align-items: center;
   }
 
@@ -108,6 +106,15 @@
 
 
 @media (max-width:650px){
+  .gallery-title{
+    flex-flow:column;
+    text-align: center;
+  }
+
+  .gallery-title>h2{
+    margin-bottom: 10px;
+  }
+
   .gallery-wrapper{
     flex-direction:column;
     justify-content: space-between;
@@ -125,6 +132,17 @@
     width: 300px;
     max-width: 100%;
   }
+  .social-media{
+    margin:10px;
+}
+
+.quick-links{
+  margin:10px;
+}
+
+.footer-contact{
+  margin: 10px;
+}
 }
 
 @media (max-width:550px){
@@ -157,4 +175,68 @@
   .email-form{
     width: 180px;
   }
+}
+
+
+@media (max-width:390px){
+  .see-all-button{
+    width: 200px;
+  }
+
+  .section-1-image-div{
+    width: 200px;
+    height: 200px;
+  }
+
+  .section-1-image-div>img{
+    width: 180px;
+    height: 180px;
+
+  }
+
+  .section-2-image-div{
+    height: 600px;
+  }
+  .event>button{
+    width: 80px;
+    font-size: 8px;
+  }
+  .event-date>h6{
+    font-size: 8px;
+  }
+
+  .event>h1{
+    font-size: 28px;
+  }
+
+  .event h3{
+    font-size: 10px;
+  }
+
+  .event h5{
+    font-size: 8px;
+  }
+
+  .event h4{
+    font-size: 12px;
+  }
+
+  .email-form{
+    width: 100px;
+    height: 40px;
+  }
+
+  .subscribe-button{
+    width: 70px;
+    height: 40px;
+    font-size: 10px;
+}
+  .subscribe-title>h2{
+      font-size: 25px;
+  }
+  
+  .subscribe-title>h4{
+    font-size: 12px;
+}
+
 }
